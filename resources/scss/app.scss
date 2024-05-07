@@ -112,7 +112,60 @@ header
 
 
 /* #region Footer */
+footer
+{
+    overflow: auto;
+    white-space: nowrap;
+    
+    .top_footer
+    {
+        background-color: rgb(65, 140, 252);
+        color: white;
+        z-index: 999;
 
+        .img_svg
+        {
+            max-width: 120px;
+        }
+    }
+
+    .center_footer
+    {
+        background-image: url("../img/footer-bg.jpg");
+        color: white;
+
+        li,
+        p,
+        span
+        {
+            color: rgb(155, 155, 155);
+
+            a 
+            {
+                text-decoration: none;
+            }
+        }
+
+        .center_footer_right
+        {
+            position: relative;
+
+            img
+            {
+                position: absolute;
+                top: -20%;
+                /* overflow: hidden;
+                z-index: 0; */
+            }
+        }
+    }
+
+    .bottom_footer
+    {
+        background-color: #333;
+        color: white;
+    }
+}
 /* #endregion Footer */
 
 
