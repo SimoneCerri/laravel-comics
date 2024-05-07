@@ -2,24 +2,24 @@
 
     <div class="top_footer py-3">
         <div class="container">
-            <div class="row">
-                <div class="col d-flex align-items-center">
+            <div class="row flex-nowrap">
+                <div class="col-3 d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
                     <div class="ps-3">DIGITAL COMCIS</div>
                 </div>
-                <div class="col d-flex align-items-center">
+                <div class="col-3 d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="">
                     <div class="ps-3">DC MERCHANDISE</div>
                 </div>
-                <div class="col d-flex align-items-center">
+                <div class="col-3 d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="">
                     <div class="ps-3">COMIC SHOP LOCATOR</div>
                 </div>
-                <div class="col d-flex align-items-center">
+                <div class="col-3 d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="">
                     <div class="ps-3">SUBSCRIPTION</div>
                 </div>
-                <div class="col d-flex align-items-center">
+                <div class="col-3 d-flex align-items-center">
                     <img class="img_svg" src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="">
                     <div class="ps-3">DC POWER VISA</div>
                 </div>

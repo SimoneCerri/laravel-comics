@@ -14,7 +14,7 @@
             <div class="row align-items-center">
                 <nav class="navbar navbar-expand-sm navbar-light bg-white fw-bold">
                     <div class="container">
-                        <div class="left">
+                        <div class="col-1 left">
                             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
                         </div>
                         <div class="center">
@@ -53,7 +53,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="col-1 right">
                             <form class="d-flex my-2 my-lg-0">
                                 <input class="form-control me-sm-2 text-end my_input" type="text" placeholder="Search" />
                             </form>
