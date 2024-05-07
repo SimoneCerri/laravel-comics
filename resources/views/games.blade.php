@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('page-title')
-    Home
+    Games
 @endsection
 
 @section('page-main')

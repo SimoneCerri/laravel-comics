@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('page-title')
-    Home
+    Collectibles
 @endsection
 
 @section('page-main')
