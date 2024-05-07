@@ -1,12 +1,119 @@
 @import '~bootstrap/scss/bootstrap';
 
-.jumbo
-{
-    background-image: url("../img/jumbotron.jpg");
-    height: 50vh;
+/*
+###############
+- Debug
+- Common
+- Utilities
+- MediaQuery
+- Header
+- Main
+- Footer
+###############
+*/
+
+
+/* #region Debug */
+
+/* #endregion Debug */
+
+
+/* #region Common */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body
-{
-    background-color: #333;
+/* #endregion Common */
+
+
+/* #region Utilities */
+
+/* #endregion Utilities */
+
+
+/* #region MediaQuery */
+
+/* #region Desktops & Large screens */
+@media screen and (max-width: 1200px) {
+    /* Desktops & Large screens */
 }
+
+/* #endregion Desktops & Large screens */
+
+/* #region Small screens & Laptops */
+@media screen and (max-width: 1024px) {
+    /* Small screens & Laptops */
+}
+
+/* #endregion Small screens & Laptops */
+
+/* #region iPads & Tablets */
+@media screen and (max-width: 768px) {
+    /* iPads & Tablets */
+}
+
+/* #endregion iPads & Tablets */
+
+/* #region Mobile */
+@media screen and (max-width: 480px) {
+    /* Mobile */
+}
+
+/* #endregion Mobile */
+
+/* #endregion MediaQuery */
+
+
+/* #region Header */
+header 
+{
+    .top
+    {
+        background-color: rgb(65, 140, 252);
+        height: 30px;
+    }
+
+    .bottom
+    {
+        background-color: white;
+        height: 120px;
+
+        .my_active
+        {
+            color: rgb(65, 140, 252);
+            text-decoration: underline;
+            text-decoration-color: rgb(65, 140, 252);
+            text-decoration-thickness: 10px;
+        }
+
+        .my_input
+        {
+            border: none;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-color: rgb(65, 140, 252);
+        }
+    }
+}
+/* #endregion Header */
+
+
+/* #region Main */
+.jumbo {
+    background-image: url("../img/jumbotron.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #endregion Main */
+
+
+/* #region Footer */
+
+/* #endregion Footer */
+
+
+
