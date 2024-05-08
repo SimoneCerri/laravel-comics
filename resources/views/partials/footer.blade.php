@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="top_footer py-3 bg-primary">
+    <div class="top_footer py-3 bg-primary z-2 position-relative">
         <div class="container">
             <div class="row flex-nowrap">
                 <div class="col-3 d-flex align-items-center">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div class="center_footer py-3">
+    <div class="center_footer py-3 z-n1 position-relative">
         <div class="container">
             <div class="row">
                 <div class="col-6 center_footer_left">
@@ -101,7 +101,7 @@
 
         </div>
     </div>
-    <div class="bottom_footer py-3">
+    <div class="bottom_footer py-3 z-3 position-relative">
         <div class="container">
             <div class="row">
                 <div class="col-6 bottom_footer_left">
