@@ -5,12 +5,15 @@
 @endsection
 
 @section('page-main')
+    <div class="bg-primary blue_coso">
+
+    </div>
     <div class="container comic_image">
-        <div class="">
+        <div class="my_img_size">
             <img src="{{ $comic['thumb'] }}" alt="">
         </div>
     </div>
-    <div class="container comic_main_info">
+    <div class="container comic_main_info py-5">
         <div class="row">
             <div class="col-8">
                 <h2>
@@ -46,68 +49,70 @@
             </div>
         </div>
     </div>
-    <div class="container comic_other_info">
-        <div class="row">
-            <div class="col-6">
-                <h3>
-                    <strong>
-                        Talent
-                    </strong>
-                </h3>
-                <hr>
-                <div class="row">
-                    <div class="col-4">
-                        Art by:
+    <div class="bg-light border-top">
+        <div class="container comic_other_info py-5">
+            <div class="row">
+                <div class="col-6">
+                    <h3>
+                        <strong>
+                            Talent
+                        </strong>
+                    </h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            Art by:
+                        </div>
+                        <div class="col-8">
+                            Name 1,Name 2,Name 3,Name 4,Name 5,Name 6,Name 7
+                        </div>
                     </div>
-                    <div class="col-8">
-                        Nome1,Nome2,Nome3,Nome4,Nome5,Nome6,Nome7
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            Written by:
+                        </div>
+                        <div class="col-8">
+                            Name 1,Name 2,Name 3,Name 4,Name 5,Name 6,Name 7
+                        </div>
                     </div>
+                    <hr>
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-4">
-                        Written by:
+                <div class="col-6">
+                    <h3>
+                        <strong>
+                            Specs
+                        </strong>
+                    </h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            Series:
+                        </div>
+                        <div class="col-8">
+                            {{ $comic['series'] }}
+                        </div>
                     </div>
-                    <div class="col-8">
-                        Nome1,Nome2,Nome3,Nome4,Nome5,Nome6,Nome7
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            U.S. Price:
+                        </div>
+                        <div class="col-8">
+                            {{ $comic['price'] }}
+                        </div>
                     </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            On Sale Date:
+                        </div>
+                        <div class="col-8">
+                            {{ $comic['sale_date'] }}
+                        </div>
+                    </div>
+                    <hr>
                 </div>
-                <hr>
-            </div>
-            <div class="col-6">
-                <h3>
-                    <strong>
-                        Specs
-                    </strong>
-                </h3>
-                <hr>
-                <div class="row">
-                    <div class="col-4">
-                        Series:
-                    </div>
-                    <div class="col-8">
-                        {{$comic['series']}}    
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-4">
-                        U.S. Price:
-                    </div>
-                    <div class="col-8">
-                        {{$comic['price']}}
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-4">
-                        On Sale Date:
-                    </div>
-                    <div class="col-8">
-                        {{$comic['sale_date']}}
-                    </div>
-                </div>
-                <hr>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <header>
-    <div class="top">
+    <div class="top bg-primary">
         <div class="container text-white text-end">
             <span>
                 DC POWER VISA &copy;

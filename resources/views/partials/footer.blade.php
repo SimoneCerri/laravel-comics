@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="top_footer py-3">
+    <div class="top_footer py-3 bg-primary">
         <div class="container">
             <div class="row flex-nowrap">
                 <div class="col-3 d-flex align-items-center">
