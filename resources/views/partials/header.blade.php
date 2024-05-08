@@ -15,7 +15,9 @@
                 <nav class="navbar navbar-expand-sm navbar-light bg-white fw-bold">
                     <div class="container">
                         <div class="col-1 left">
-                            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                            <a href="{{route('home_page')}}">
+                                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                            </a>
                         </div>
                         <div class="center">
                             <div class="collapse navbar-collapse" id="collapsibleNavId">
