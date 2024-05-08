@@ -57,3 +57,11 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name("shop_page");
+
+Route::get('/comics/{id}',function($id)
+{
+    abort_unless($id >= 0 && $id < count(config('comics.comics')),404);
+    $comic = config('comics.comics')[$id];
+    //dd($comic);
+    return view('comics.details',compact('comic'));
+})->name('comics.details');

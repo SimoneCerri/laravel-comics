@@ -20,7 +20,7 @@ Comics
                 <div class="card h-100 border-0 rounded-bottom-0">
                     <img class="card-img-top h-75" src="{{$comic['thumb']}}" alt="">
                     <div class="card-body bg-dark text-white">
-                        {{$comic['title']}}
+                        {{$comic['series']}}
                     </div>
                 </div>
             </div>
